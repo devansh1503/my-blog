@@ -36,6 +36,7 @@ body{
   background-color: rgb(25, 25, 25);
   padding: 12px;
   color:orangered;
+  z-index: 1000;
 }
 .about{
   display: flex;
@@ -65,4 +66,53 @@ body{
   color:orangered;
   cursor:pointer;
   font-size: 20px;
+}
+.iframe-main{
+  display:flex;
+  justify-content: center;
+}
+.iframe{
+  width: 50%;
+}
+.featured-main{
+  display: flex;
+  width: 100%;
+  background-color: orange;
+  align-items: center;
+}
+.featured-main img{
+  width: 25%;
+}
+.featured-label{
+  position: absolute;
+  color: white;
+  font-weight: 800;
+  font-size:25px;
+  background-image: linear-gradient(to right, blue, purple);
+  padding: 10px;
+  border-bottom-right-radius: 25px;
+}
+.featured-details{
+  margin:20px;
+}
+
+@media only screen and (max-width: 848px) {
+  .iframe{
+    width: 100%;
+  }
+  .home-main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .story-card{
+    width: 100%;
+  }
+  .story-card img{
+    width: 100%;
+  }
+  .about-main{
+    flex-direction: column;
+  }
 }
