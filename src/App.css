@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: Century Gothic;
+  background-color: rgb(40, 40, 40);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-main{
+  padding:30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+.story-card{
+  width: 20%;
   color: white;
+  box-shadow: 10px 10px 15px black;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 20px;
+  transition: all 0.5s ease-in-out;
 }
-
-.App-link {
-  color: #61dafb;
+.story-card:hover{
+  transform: scale(1.1,1.1);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.story-card img{
+  width: 100%;
+  border-radius: 15px;
+}
+.story-card h2{
+  padding: 12px;
+  background-color: rgb(174, 0, 104);
+}
+.navbar{
+  background-color: rgb(25, 25, 25);
+  padding: 12px;
+  color:orangered;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.about-main{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-main img{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px black;
+}
+.about-main h1{
+  margin: 12px;
+}
+/* .description{
+  width: 40%;
+} */
+.about-main p{
+  color:orangered;
+  cursor:pointer;
+  font-size: 20px;
 }

@@ -1,25 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import withUserInfo, { useUserLogin } from './Context/context';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Content from './Pages/Content';
+import About from './Pages/About';
+import Navbar from './Components/Navbar';
 
 function App() {
+  const ctx = useUserLogin()
+  useEffect(()=>{
+    ctx.setUser({
+      name:"Devansh",
+      email:"guyaswsm@gmail.com",
+      password:"bandd007@"
+    })
+  },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/content' element={<Content></Content>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+export default withUserInfo(App);
