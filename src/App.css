@@ -20,6 +20,7 @@ body{
   border-radius: 15px;
   margin: 20px;
   transition: all 0.5s ease-in-out;
+  height: fit-content;
 }
 .story-card:hover{
   transform: scale(1.1,1.1);
@@ -80,6 +81,9 @@ body{
   background-color: orange;
   align-items: center;
 }
+.featured-main p{
+  font-size: 20px;
+}
 .featured-main img{
   width: 25%;
 }
@@ -114,5 +118,11 @@ body{
   }
   .about-main{
     flex-direction: column;
+  }
+  .featured-main{
+    flex-direction: column;
+  }
+  .featured-main img{
+    width: 100%;
   }
 }

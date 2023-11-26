@@ -3,14 +3,15 @@ import { stories } from '../dummyData'
 import { useNavigate } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 import Featured from '../Components/Featured'
+import DocViewer from 'react-doc-viewer'
 
 function Home() {
-    const [featured, setFeatured] = useState(stories[0])
+    const [featured, setFeatured] = useState([stories[0],0])
     function findFeatured(){
-        for(const story of stories){
-            console.log(story)
+        for(const idx in stories){
+            const story = stories[idx]
             if(story.featured){
-                setFeatured(story)
+                setFeatured([story,idx])
                 break;
             }
         }

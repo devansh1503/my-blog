@@ -53,7 +53,6 @@ export const stories = [
             "https://docs.google.com/document/d/1npkTwosTyIi3IhG28_iB5A0cYT-K25YKN_MpNEJvamc/edit?usp=sharing",
             "https://docs.google.com/document/d/1RQmCxuiGX7x0NuzANydBDUgPmCKm5v6U64AONGBaCko/edit?usp=sharing",
             "https://docs.google.com/document/d/1ZahGLhh6RbeGVQzC12ikWZW0Yta6SANO4zVOxDpupWk/edit?usp=sharing"
-
         ],
         "chapter_title":[
             "Chapter 1",
