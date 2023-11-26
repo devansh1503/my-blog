@@ -3,7 +3,6 @@ import { stories } from '../dummyData'
 import { useNavigate } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 import Featured from '../Components/Featured'
-import DocViewer from 'react-doc-viewer'
 
 function Home() {
     const [featured, setFeatured] = useState([stories[0],0])
