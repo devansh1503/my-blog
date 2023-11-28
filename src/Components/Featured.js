@@ -8,15 +8,15 @@ function Featured({obj}) {
   }
   return (
     <>
-        <div className='featured-label'>
-                <p>Featured</p>
-        </div>
         <div className='featured-main'>
             <img src={obj[0].cover}></img>
             <div className='featured-details'>
                 <h1>{obj[0].title}</h1>
-                <p>{obj[0].desc}</p>
-                <p style={{color:'white', fontWeight:'600', cursor:'pointer'}} onClick={onClickHandle}>Read More</p>
+                <p style={{fontSize:'18px', marginBlock:'20px'}}>{obj[0].desc}</p>
+                <p style={{color:'black', cursor:'pointer', fontSize:'20px'}} onClick={onClickHandle}>Read More...</p>
+            </div>
+            <div className='featured-label'>
+                <p>FEATURED POST</p>
             </div>
         </div>
     </>

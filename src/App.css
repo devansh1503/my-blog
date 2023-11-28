@@ -5,7 +5,7 @@
 }
 body{
   font-family: Century Gothic;
-  background-color: rgb(40, 40, 40);
+  background-color: white;
 }
 .home-main{
   padding:30px;
@@ -15,9 +15,8 @@ body{
 .story-card{
   width: 20%;
   color: white;
-  box-shadow: 10px 10px 15px black;
+  box-shadow: 10px 10px 15px rgb(0, 0, 0);
   cursor: pointer;
-  border-radius: 15px;
   margin: 20px;
   transition: all 0.5s ease-in-out;
   height: fit-content;
@@ -31,13 +30,47 @@ body{
 }
 .story-card h2{
   padding: 12px;
-  background-color: rgb(174, 0, 104);
+  color: rgb(49, 49, 49);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .navbar{
-  background-color: rgb(25, 25, 25);
-  padding: 12px;
-  color:orangered;
-  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar *{
+  margin-bottom: 20px;
+}
+.subtext{
+  font-size: 25px;
+  margin-top: 20px;
+  color: rgb(47, 47, 47);
+}
+.heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 95%;
+  height: fit-content;
+  border-top: 1px solid rgb(96, 96, 96);
+  border-bottom: 1px solid rgb(96, 96, 96);
+  font-size: 20px;
+}
+.menu *{
+  text-decoration: none;
+  color: rgb(86, 86, 86);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  padding-top: 5px;
+  height: 30px;
+  border-left: 1px solid black;
 }
 .about{
   display: flex;
@@ -64,9 +97,10 @@ body{
   width: 40%;
 } */
 .about-main p{
-  color:orangered;
+  color:rgb(103, 28, 28);
+  font-weight: 600;
   cursor:pointer;
-  font-size: 20px;
+  font-size: 25px;
 }
 .iframe-main{
   display:flex;
@@ -76,28 +110,66 @@ body{
   width: 50%;
 }
 .featured-main{
+  position: relative;
   display: flex;
-  width: 100%;
-  background-color: orange;
+  flex-direction: column;
+  width: 45%;
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.54);
+  border: 1px solid rgb(68, 68, 68);
+  color: rgb(79, 79, 79);
   align-items: center;
 }
 .featured-main p{
-  font-size: 20px;
+  font-size: 35px;
 }
 .featured-main img{
-  width: 25%;
+  width: 100%;
 }
 .featured-label{
   position: absolute;
-  color: white;
-  font-weight: 800;
-  font-size:25px;
-  background-image: linear-gradient(to right, blue, purple);
+  top: 0;
+  left: 0;
+  color: black;
+  background-color: white;
   padding: 10px;
-  border-bottom-right-radius: 25px;
 }
 .featured-details{
   margin:20px;
+}
+.newsletter{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 20px;
+  padding-block: 40px;
+  width:95%;
+  align-self: center;
+  border-top: 1px solid rgb(67, 67, 67);
+  border-bottom: 1px solid rgb(67, 67, 67);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.newsletter h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.newsletter input{
+  border: none;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.newsletter button{
+  border: none;
+  background: none;
+  font-size: 15px;
+  background-color: rgb(102,0,234);
+  color: white;
+  padding-inline: 25px;
+  padding-block: 15px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 848px) {
@@ -120,7 +192,9 @@ body{
     flex-direction: column;
   }
   .featured-main{
+    width: 100%;
     flex-direction: column;
+    margin-top: 0;
   }
   .featured-main img{
     width: 100%;
