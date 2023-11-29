@@ -11,10 +11,10 @@ function Navbar() {
         <h1>The Sublime Dream</h1>
       </div>
       <div className='menu'>
-        <Link>Home</Link>
+        <Link to={'/'}>Home</Link>
         <Link>Stories</Link>
         <Link>Articles</Link>
-        <Link>About</Link>
+        <Link to={'/aboutme'}>About</Link>
       </div>
     </div>
   )

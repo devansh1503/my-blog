@@ -11,7 +11,7 @@ function TopStories({
         navigate('/about', { state: { id: id } })
     }
     return (
-        <div style={{ width: '45%'}}>
+        <div className='top-story-main'>
             <div>
                 <p style={{ fontSize: '25px' }}>{title}</p>
             </div>
