@@ -3,7 +3,9 @@ export const stories = [
         "title":"The Dumbest Story Ever",
         "featured":false,
         "flag":true,
-        "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8XRn78346U2OTF64z1C1ZGqnwd2y8Y0VRucWGSNnVjNDBmb4SiMZavcdKLtc6uugssSaJR8S3W1WJrjXy-ynqqQAN9lw8yAGsUXoCe3M34gPlmbGLvBTIV6fRRoGt2GXnAaeCRbYp2EiB9OXkyJdErl-i7N56VIORfeMWlBCAqgoN1XrTFGZ3imf8m33/w441-h441/An_animated_picture_of_team_of_seven_people,_six_men_and_one_woman_standing_with_colorful_clothes_with_orange_background_all_having_a_cringe_funny_expression%20(1).png",
+        "genre":"Black Comedy",
+        "wide-img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSiCuQ4JfbLue3xyzyziBtyxj1Oz1-LuGLiJw3a3EawmNQO2nntHEpN67EFNCa340DvpcN-cXhwR4S_BdYJvMgz1b-0DLmjWYuA4Z4Pvj_Ql0L_EV9proicVbd0jlBcAEAAedd7k9IO6WF8N6bmKrZTf2_DeOz76DtwFy6gL40TlfJCgwi0e0y2TykgBEP/w580-h386/dumbest-title.jpg",
+        "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU1PlXjmdf16XM_XaSEtsouG9FyQRfcCCy14WU7eHigUKNisTI__v2Pw-D5U9wVhIoVnmjzXRoCDJKqVUDbDHcMaDCADKmcsRHKJyMwLaMDjQI3y0Lirrfo3-CMRhw3SMspCNjn8rQ60YgmE3TJKL0y4xu8X5b96U-1jR42quAaTg9VglZ5OdXofSRDZNO/s1024/dumb-main.png",
         "chapters":[
             "https://docs.google.com/document/d/1l9lHA0BzlHl-x0jed5OC_n-3QvVeWVHgNXzEH4qS2ck/edit?usp=sharing",
             "https://docs.google.com/document/d/1C5tXiQXQiMmLwFBJe0DPbIe5Jw9JzcWVwqP--O-ZBI4/edit?usp=sharing"
@@ -18,6 +20,8 @@ export const stories = [
         "title":"The Wizard",
         "featured":false,
         "flag":false,
+        "genre":"Drama/ Mystery/ Detective",
+        "wide-img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6YELX1DvCjQEwfO6GPFTKBOyWhQX0ZFkB1cjpV7V_OPbVRRH5os0KAssxUbm5_5VferaIkMM64HBDmPlvzTXEGq2fxblMcrW32J3S0YFAIekODca9_zd2vTE3s1TEYz_Gr7q5ZqE0UPlMwY-n5Lj8NswD9lsJGfuEKmy8BgvOfN66fjvIiPTV7ecciYRb/w682-h454/wizard-title.jpg",
         "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZClvsEqwCeBgYvdUtNdfrVAzraiVzkPNNpIGYyNeQC_0R2-Om0lwbK65Z9xK36s_rvvkVcmkWus9UNt74yfkR2aYboJ89Iv7jAsQLIF0k6u1TmgmFhMrwG3XaMu9CY90Pnec2yHDDD43gokbY0oNjuDJSSkmkuksLdimnJj3pmiV9KEWEcBQGuRjuCMUc/w580-h580/A_black_and_white_animated_image_of_an_old_magician_with_long_beard_and_putting_on_his_hat_with_an_evil_smirk_on_his_face,_cinematic_potrait%20(1).png",
         "chapters":[
             "https://docs.google.com/document/d/13qMmlMu6ctM-Vj2ykT-KhFm3UEhxMWqehPs2PTFu7Aw/edit?usp=sharing",
@@ -43,6 +47,8 @@ export const stories = [
         "title":"The Don",
         "featured":true,
         "flag":false,
+        "genre":"Classic/ Crime/ Drama",
+        "wide-img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXyXylz4K96XGAOmWQwNBLDNolmGZznnLief2_-f67N6mPj0nK92c6dzZRl38hgQMU28okYJGIGSaWZC3DgUtdBTxINGDbkYLgPqH5M7xD9h73wupaiYu-AH50DLx5jd8gL8v3m7QEVixXN7Efyf_tpMCXauPBVH_JA22kn7qG6Je778a0nn6qhL5J9VrD/w598-h398/don-title.jpg",
         "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCurXFsEzG5H9DvNjyxI_AY0CIBETBiMFTJ1i5zKZ7YkdhEBlh84NSE6uh_lEZNPf204rqOOJxMVjhO3GRqoH4ct4CMYg2j-8phemJWcT-jEEbkeHIrEGCHDq4auJmb6W4PK04qsvoUHsslTJScq6vizhrHW8_DyQjGaP1U5U0Q-02NEw4jHmI_6KE-a1y/w629-h629/A_man_in_black_long_coat_with_black_hat_walking_in_rain_all_alone_in_evening_looking_down,_a_cinematic_scene,_animated_image.png",
         "chapters":[
             "https://docs.google.com/document/d/1TXQWXeB1SYeyHtNBHNZsw7doEmoSjHpg2MGpdTz2nRw/edit?usp=sharing",
@@ -65,5 +71,38 @@ export const stories = [
             "Chapter 8",
         ],
         "desc":"Harry Hagen's fate takes unexpected turns, building him up as the strongest Don in the entire country, meanwhile he learns, and transforms into a strong man. "
+    },
+]
+
+export const upcoming = [
+    {
+        "title":"Ninjas Of Edo",
+        "featured":true,
+        "flag":false,
+        "genre":"Fantasy/ Thriller",
+        "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcQAv4uj6tJRDPFldZ_FG0xyA69MYS0vbmY0VSEWixTfEgh0dkeiGDY3jZzy9ciBj5dNt2VfuvVoclpaKsPDh_p1dsu9H2a06oDXGQhj8dqTfzISWIF9lDlVE3Hga5VZK_faxUrwaAUbDsNc4DtCaJnbE8aAjtYrm9tSAJhc2ISI1p_YXYHqXEQoow2XQw/s1024/Ninjas-main.jpg",
+        "chapters":[],
+        "chapter_title":[],
+        "desc":"Kenichi Mitsuba will befriend Ega Ninja Kanzo Hattori while fate awaits Khoga Ninja Kemumaki in the city of Edo"
+    },
+    {
+        "title":"The Don Returns",
+        "featured":true,
+        "flag":false,
+        "genre":"Crime/ Drama",
+        "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimLRu09g2dDuZh6OdlxNr7zH1km91kGMmkBCHYTAD7qy_Zv4LHqBDboZEnqGhyphenhyphenSVwwTqMBInWIhpRTDliImFPJ_WjKyiUQ45YtnWbiw2L6vI6cU8vmMBqhO4pjL7bifncUC1j5_O-Tm1M7oTnhq6sAsVBXek3e7H2-WO3WXwy3MPnXhcadu39SokyFj3F7/w592-h592/don2.jpg",
+        "chapters":[],
+        "chapter_title":[],
+        "desc":"Don Harry Hagen will show the world what real power looks like, while he faces an enemy worthy enough"
+    },
+    {
+        "title":"The Maze - Part 1",
+        "featured":true,
+        "flag":false,
+        "genre":"Mystery",
+        "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyo0VB9OCzvewQDYYz3tLcZz93Ltou3fvjRZ3XHyCSF3V4DzWYUrrXyI3VeMwCjME_rehjG3LMmeHeOl29-fjLVmJIGTHcv8uV_ZeTqhyphenhyphen4d8XWJT6_px98oEt8J9mXK8HsSytpB_Oo-8P8ydKh-VWizMDrpEY2K2uqKJFn-hdv8F9MsATVSF05JoxYkx2o/w581-h581/Maze-main.jpg",
+        "chapters":[],
+        "chapter_title":[],
+        "desc":"Adam Grey falls into the clutches of world dominating mystery Illuminati, while Mister Maze a mythological entity will struggle to save him and destroy Illuminati"
     },
 ]

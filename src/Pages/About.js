@@ -6,29 +6,32 @@ import Navbar from '../Components/Navbar'
 function About(props) {
     const location = useLocation()
     const navigate = useNavigate()
-    const onClickHandle = (link) =>{
-        navigate('/content', {state:{link:link}})
+    const onClickHandle = (link) => {
+        navigate('/content', { state: { link: link } })
     }
     return (
         <div className='about'>
-            <div className='about-main'>
-                <div style={{width:'50%'}}>
-                    <img src={stories[location.state.id].cover}></img>
-                    <h1>{stories[location.state.id].title}</h1>
+            <div style={{width:'80%'}}>
+                <div style={{ marginBlock: '20px' }}>
+                    <h1 style={{fontSize:'50px', fontFamily:"Georgia"}}>{stories[location.state.id]['title']}</h1>
                 </div>
-                <div style={{margin:'30px'}}>
-                    {stories[location.state.id].flag && <p style={{color:'orange'}}>(OFFENSIVE CONTENT WARNING)</p>}
-                    <p className='description'>SYNOPSIS: {stories[location.state.id].desc}</p>
-                    <div style={{margin:'20px'}}>
-                        <p style={{marginBottom:'12px', color:'white'}}>Click on the title to read the chapter-</p>
+                <div style={{display:'flex', backgroundColor:'rgb(102,0,234)', justifyContent:'center'}}>
+                    <div style={{ border: '1px solid black', width:"60%", backgroundColor:"white", boxShadow:'10px 10px 15px black' }}>
+                        <img src={stories[location.state.id]['wide-img']} style={{ width: '100%' }}></img>
+                        <h2 style={{ fontSize: '22px', fontFamily: 'Georgia', margin: '30px', marginBottom: '10px' }}>SYNOPSIS-</h2>
+                        <p style={{ margin: '30px', marginTop: '10px' }}>{stories[location.state.id]['desc']}</p>
+                        <p style={{ margin: '30px', color: 'rgb(102,0,234)' }}>Genre- {stories[location.state.id]['genre']} {stories[location.state.id].flag && "(Offensive Content Warning)"}</p>
+                    </div>
+                    <div style={{ backgroundColor: 'black', color: 'white', fontSize: '25px', alignSelf: 'flex-start' }}>
                         {
-                        stories[location.state.id].chapter_title.map((item, key) => {
-                            return (
-                                <div onClick={()=>{onClickHandle(stories[location.state.id].chapters[key])}}>
-                                    <p>{item}</p>
-                                </div>
-                            )
-                        }) 
+                            stories[location.state.id].chapter_title.map((item, key) => {
+                                console.log(item)
+                                return (
+                                    <div onClick={()=>{onClickHandle(stories[location.state.id].chapters[key])}} className='chapter-style'>
+                                        {item}
+                                    </div>
+                                )
+                            })
                         }
                     </div>
                 </div>

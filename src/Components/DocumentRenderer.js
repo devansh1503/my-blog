@@ -10,7 +10,6 @@ const DocumentRenderer = (props) => {
     const glink = `https://docs.google.com/document/d/${documentId}/pub?embedded=true`
     return glink
   };
-
   const extractDocumentIdFromLink = (link) => {
     const regex = /\/d\/([a-zA-Z0-9-_]+)/;
     const match = link.match(regex);
@@ -21,7 +20,7 @@ const DocumentRenderer = (props) => {
   };
   return(
     <div className="iframe-main">
-      <iframe src={getIframeSrc()} title="Google Docs Document" className="iframe" height={height-75}/>;
+      <iframe src={getIframeSrc()} title="Google Docs Document" className="iframe" height={height-75}/>
     </div>
   ) 
 };
