@@ -7,16 +7,16 @@ import img5 from '../assets/5.jpg'
 import img6 from '../assets/6.jpg'
 import img7 from '../assets/7.jpg'
 import img8 from '../assets/8.jpg'
+import me from '../assets/me.jpg'
 
 function AboutMe() {
     const [images, setImages] = useState([img1, img2, img3, img4, img5, img6, img7, img8])
   return (
     <div className='about-me'>
-        <h1 style={{fontFamily:'Georgia', fontSize:'40px'}}>Let's Know Each Other!</h1>
+        <h1 style={{fontFamily:'Georgia', fontSize:'40px', marginBottom:'20px'}}>Let's Know Each Other!</h1>
         <div className='img-para'>
             <div className='cover-img'>
-                <img className='background' src='https://www.hdwallpapers.in/download/sunset_minimal_landscape_4k-HD.jpg'></img>
-                <img className='dp' src='https://media.licdn.com/dms/image/D4D03AQG5JNreVp7SWA/profile-displayphoto-shrink_200_200/0/1693339156146?e=1702512000&v=beta&t=uKwj2xC0GGtLS2uw-TavCKHYkOGxfSf9rJU2ekAw9is'></img>
+                <img className='background' src={me}></img>
             </div>
             <div style={{padding:'20px'}}>
                 <p>
@@ -32,7 +32,7 @@ function AboutMe() {
             <div className='insta-pics'>
                 {
                     images.map((item,key)=>{
-                        return <img style={{width:'22%', margin:'10px', cursor:'pointer'}} src={item}></img>
+                        return <img style={{ cursor:'pointer'}} src={item}></img>
                     })
                 }
             </div>

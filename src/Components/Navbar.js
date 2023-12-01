@@ -12,8 +12,7 @@ function Navbar() {
       </div>
       <div className='menu'>
         <Link to={'/'}>Home</Link>
-        <Link>Stories</Link>
-        <Link>Articles</Link>
+        <Link to={'/stories'}>All Posts</Link>
         <Link to={'/aboutme'}>About</Link>
       </div>
     </div>

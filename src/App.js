@@ -8,6 +8,7 @@ import Content from './Pages/Content';
 import About from './Pages/About';
 import Navbar from './Components/Navbar';
 import AboutMe from './Pages/AboutMe';
+import Stories from './Pages/Stories';
 
 function App() {
   const ctx = useUserLogin()
@@ -26,6 +27,7 @@ function App() {
         <Route path='/content' element={<Content></Content>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/aboutme' element={<AboutMe/>}></Route>
+        <Route path='/stories' element={<Stories/>}></Route>
       </Routes>
     </BrowserRouter>
   );

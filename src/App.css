@@ -241,6 +241,10 @@ body{
 .insta-pics{
   width: 100%;
 }
+.insta-pics img{
+  width: 22%;
+  margin: 10px;
+}
 .contacts{
   width: 60%;
   display: flex;
@@ -252,6 +256,40 @@ body{
   margin: 0;
   cursor: pointer;
 }
+.stories{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stories-inner{
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 45%;
+  margin: 10px;
+  border: 1px solid black;
+}
+.card img{
+  width: 100%;
+}
+.card-des:hover{
+  cursor: pointer;
+  color: rgb(102,0,234);
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 848px) {
   .iframe{
     width: 100%;
@@ -288,9 +326,6 @@ body{
   .subtext{
     font-size: 20px;
   }
-  .heading{
-    font-size: 25px;
-  }
   .menu *{
     padding-inline: 10px;
   }
@@ -325,5 +360,26 @@ body{
     min-width: 100%;
     color: rgb(102,0,234);
     background-color: rgb(32, 0, 73);
+  }
+  .stories-inner{
+    width: 100%;
+  }
+  .about-me{
+    padding: 0;
+  }
+  .img-para{
+    width: 100%;
+  }
+  .insta{
+    width: 100%;
+  }
+  .insta-pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .insta-pics img{
+    width: 45%;
+    margin:5px;
   }
 }
