@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import img1 from '../assets/1.jpg'
+import img2 from '../assets/2.jpg'
+import img3 from '../assets/3.jpg'
+import img4 from '../assets/4.jpg'
+import img5 from '../assets/5.jpg'
+import img6 from '../assets/6.jpg'
+import img7 from '../assets/7.jpg'
+import img8 from '../assets/8.jpg'
 
 function AboutMe() {
+    const [images, setImages] = useState([img1, img2, img3, img4, img5, img6, img7, img8])
   return (
     <div className='about-me'>
         <h1 style={{fontFamily:'Georgia', fontSize:'40px'}}>Let's Know Each Other!</h1>
@@ -19,10 +28,20 @@ function AboutMe() {
             </div>
         </div>
         <div className='insta'>
-
+            <h1>Follow Me</h1>
+            <div className='insta-pics'>
+                {
+                    images.map((item,key)=>{
+                        return <img style={{width:'22%', margin:'10px', cursor:'pointer'}} src={item}></img>
+                    })
+                }
+            </div>
         </div>
         <div className='contacts'>
-
+            <a href='https://www.instagram.com/devanshabrol/'><img src='https://cdn-icons-png.flaticon.com/512/2956/2956122.png'></img></a>
+            <a href='https://www.youtube.com/@devanshabrol6079'><img src='https://cdn.icon-icons.com/icons2/2248/PNG/512/youtube_tv_icon_138003.png'></img></a>
+            <a href='https://x.com/devanshjustsaid?t=zHvKupQYcO2roDbunUM6CA&s=08'><img src='https://cdn.iconscout.com/icon/free/png-256/free-twitter-x-9583449-7741112.png?f=webp'></img></a>
+            <a href='https://www.linkedin.com/in/devansh-abrol-46463b201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '><img src='https://cdn.icon-icons.com/icons2/2248/PNG/512/linkedin_icon_135436.png'></img></a>
         </div>
     </div>
   )

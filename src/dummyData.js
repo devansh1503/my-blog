@@ -58,7 +58,8 @@ export const stories = [
             "https://docs.google.com/document/d/1xAphtBPGXZ-EbAvZBTb3UkbbRQtSJKufPaHZ8IFCwxQ/edit?usp=sharing",
             "https://docs.google.com/document/d/1npkTwosTyIi3IhG28_iB5A0cYT-K25YKN_MpNEJvamc/edit?usp=sharing",
             "https://docs.google.com/document/d/1RQmCxuiGX7x0NuzANydBDUgPmCKm5v6U64AONGBaCko/edit?usp=sharing",
-            "https://docs.google.com/document/d/1ZahGLhh6RbeGVQzC12ikWZW0Yta6SANO4zVOxDpupWk/edit?usp=sharing"
+            "https://docs.google.com/document/d/1ZahGLhh6RbeGVQzC12ikWZW0Yta6SANO4zVOxDpupWk/edit?usp=sharing",
+            "https://docs.google.com/document/d/1QNa6pGxGSqmSUR_GUes0P9Fl2j0zEDR0E-4gSIAYeEY/edit?usp=sharing",
         ],
         "chapter_title":[
             "Chapter 1",
@@ -69,8 +70,40 @@ export const stories = [
             "Chapter 6",
             "Chapter 7",
             "Chapter 8",
+            "CHARACTERS"
         ],
         "desc":"Harry Hagen's fate takes unexpected turns, building him up as the strongest Don in the entire country, meanwhile he learns, and transforms into a strong man. "
+    },
+    {
+        "title":"A Madman",
+        "featured":true,
+        "flag":false,
+        "genre":"Crime/ Detective/ Thriller",
+        "wide-img":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXyXylz4K96XGAOmWQwNBLDNolmGZznnLief2_-f67N6mPj0nK92c6dzZRl38hgQMU28okYJGIGSaWZC3DgUtdBTxINGDbkYLgPqH5M7xD9h73wupaiYu-AH50DLx5jd8gL8v3m7QEVixXN7Efyf_tpMCXauPBVH_JA22kn7qG6Je778a0nn6qhL5J9VrD/w598-h398/don-title.jpg",
+        "cover":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCurXFsEzG5H9DvNjyxI_AY0CIBETBiMFTJ1i5zKZ7YkdhEBlh84NSE6uh_lEZNPf204rqOOJxMVjhO3GRqoH4ct4CMYg2j-8phemJWcT-jEEbkeHIrEGCHDq4auJmb6W4PK04qsvoUHsslTJScq6vizhrHW8_DyQjGaP1U5U0Q-02NEw4jHmI_6KE-a1y/w629-h629/A_man_in_black_long_coat_with_black_hat_walking_in_rain_all_alone_in_evening_looking_down,_a_cinematic_scene,_animated_image.png",
+        "chapters":[
+            "https://docs.google.com/document/d/1mz68-nki6g3cUVmAs1bUN4bQahdL6EvUekSJcVTENgE/edit?usp=sharing",
+            "https://docs.google.com/document/d/1RFOgNvcF5H9ckbVRk7UqpZAmKa9Okwr0Qp89dVlP164/edit?usp=sharing",
+            "https://docs.google.com/document/d/1tvZbayhEoFsveNOBJa6xEaZmnYwMJ78vBJISJcv85UU/edit?usp=sharing",
+            "https://docs.google.com/document/d/1-BbfpRDTUhxaRcK5lWh891a6Bu5pbcckkV1Vs5Inpzk/edit?usp=sharing",
+            "https://docs.google.com/document/d/1lBHawRGVldAFWjEp1Q31QlieZ_0hxN5UU-io2CBDbk4/edit?usp=sharing",
+            "https://docs.google.com/document/d/1_Kfxb4pU8_4LXwzjIqpE_x8GmiOs646QeCJ1yQJUAiM/edit?usp=sharing",
+            "https://docs.google.com/document/d/1D40174cx7cEyjrA9yoQJTLHjMESP3IwOLUsxHueKnxk/edit?usp=sharing",
+            "https://docs.google.com/document/d/1Epb8C76zJkjcPmzOza_PcrFD9yF8r6l-zQJlb2g8xf4/edit?usp=sharing",
+            "https://docs.google.com/document/d/1esGN3mnLmhkSOCoXZtHzyx-NR8W1fK_lOGf1htW1sTA/edit?usp=sharing",
+        ],
+        "chapter_title":[
+            "The Debt",
+            "The Warning",
+            "The Challenge",
+            "The Funeral",
+            "The Lovely Duty",
+            "The Mask",
+            "The Second Chance",
+            "The Real One",
+            "The Human"
+        ],
+        "desc":"Detective JJ Warren must use all his cognition and doubt, to figure out who is the psycopath killer responsible for murders and public manipulation"
     },
 ]
 
