@@ -364,6 +364,9 @@ body{
   .stories-inner{
     width: 100%;
   }
+  .card{
+    width: 100%;
+  }
   .about-me{
     padding: 0;
   }
